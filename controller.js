@@ -1,6 +1,6 @@
 'use-strict';
 
-var response = require('./response');
+var response = require('./res');
 var connection = require('./connection');
 
 exports.index = function(req, res) {
