@@ -1,6 +1,6 @@
 var connection = require('../connection');
 var mysql = require('mysql');
-var md5 = require('../node_modules/md5');
+var md5 = require('md5');
 var response = require('../res');
 var jwt = require('jsonwebtoken');
 var config = require('../config/secret');
